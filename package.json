@@ -1,0 +1,30 @@
+{
+  "name": "mevn-stack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "webpack": "webpack --mode development --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.9.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "babel-preset-env": "^1.7.0",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.11.1",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
